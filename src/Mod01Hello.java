@@ -16,7 +16,7 @@ public class Mod01Hello {
             System.out.println("Hello, Java.");    
         }
  //The following are the exercises from Hackerrank Module 1
-        public static void main(String[] args) {
+        public static void Day0() {
             // Create a Scanner object to read input from stdin.
             Scanner scan = new Scanner(System.in); 
             
@@ -34,7 +34,7 @@ public class Mod01Hello {
         static int solveMeFirst(int a, int b) {
             return a+b;
         }
-        public static void main1(String[] args) {
+        public static void solveFirst() {
               Scanner in = new Scanner(System.in);
               int a;
               a = in.nextInt();
@@ -45,7 +45,7 @@ public class Mod01Hello {
               System.out.println(sum);
         }
        
-       public static void  main11(String[] args) {
+       public static void javaStdin() {
            Scanner scan = new Scanner(System.in);
            int a = scan.nextInt();
            int b = scan.nextInt();
