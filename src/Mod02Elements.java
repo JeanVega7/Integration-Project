@@ -2,40 +2,40 @@ import java.util.Scanner;
 
 public class Mod02Elements {
     public static void doMod2() {
-        
-        int i = 4;
-        double d = 4.0;
-        String s = "Hackerrank";
-        
+
+        int favoriteNum = 7;
+        double cashMoney = 4.0;
+        final String firstName = "Jean "; //final means that the value cannot be changed
+       
         Scanner scan = new Scanner(System.in); 
         
-        int i2;
-        double d2;
-        String s2;
+        int secondFavorite;
+        double bankMoney;
+        String lastName;
 
-        i2 = scan.nextInt();
-        d2 = scan.nextDouble();
-        s2 = scan.nextLine();
-        s2 = scan.nextLine();
+        secondFavorite = scan.nextInt();
+        bankMoney = scan.nextDouble();
+        lastName = scan.nextLine();
 
-        System.out.println(i + i2);
-        System.out.println(d + d2);
-        System.out.println(s + s2);
-        
         scan.close();
         
+        System.out.println(favoriteNum + secondFavorite);
+        System.out.println(cashMoney + bankMoney );
+        System.out.println(firstName + lastName);
+        
+        if(favoriteNum = 7) {
+            System.out.println("My favorite number is: " + favoriteNum);
+        } else {
+            System.out.println("That is not my favorite number");
+        }
+        
+        /* byte can store 8 bit integers, short 16 bit, int 32 bit, and long 64 bit integers 
+         *  boolean holds true or false values and char holds a single character
+         *  float stores 32 bit floating point numbers and double stores 64 bit floating numbers
+         */
         System.out.println("There are 8 primitive data types: byte, short, int, long, float, double, "
                 + "boolean, and char");
-        }
-    
-    public static void javaStdin() {
-            Scanner scan = new Scanner(System.in);
-            int a = scan.nextInt();
-            int b = scan.nextInt();
-            int c = scan.nextInt();
-
-            System.out.println(a);
-            System.out.println(b);
-            System.out.println(c);
+        System.out.println("A variable is a location in memory and "
+                + "Scope means variables are only available in the method they are in ");
         }
     }
