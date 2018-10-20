@@ -1,11 +1,5 @@
-/**
- * 
- */
+import java.util.Scanner;
 
-/**
- * @author jcvega5237
- *
- */
 public class Mod03Strings {
-
+    
 }
