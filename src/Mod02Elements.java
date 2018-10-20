@@ -23,7 +23,7 @@ public class Mod02Elements {
         System.out.println(cashMoney + bankMoney );
         System.out.println(firstName + lastName);
         
-        if(favoriteNum = 7) {
+        if(favoriteNum == 7) {
             System.out.println("My favorite number is: " + favoriteNum);
         } else {
             System.out.println("That is not my favorite number");
