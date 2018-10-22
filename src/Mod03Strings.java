@@ -2,12 +2,17 @@ import java.util.Scanner;
 
 public class Mod03Strings {
     public static void stringsIntro() {
-        Scanner sc=new Scanner(System.in);
-        String AnimalName = sc.next();
-        String SecondAnimal = sc.next();
+        
+        Scanner scan = new Scanner(System.in);
+        String AnimalName = scan.next();
+        String SecondAnimal = scan.next();
+        
+        scan.close();
+        
         //.length counts the number of characters in a string
         System.out.println(AnimalName.length());
         System.out.println(SecondAnimal.length());
+        
         //.compareTo compares strings to find alphabetical order
         int charNum = AnimalName.compareTo(SecondAnimal);
         if(charNum>0){
@@ -15,6 +20,7 @@ public class Mod03Strings {
         } else{
              System.out.println("No");
         }
+        
         //.substring addresses a specific portion of the String 
         //.toUpperCase changes characters to an upper case
         // The \n escape sequence inserts another line
@@ -31,5 +37,6 @@ public class Mod03Strings {
         int num2 = 47;
         byte num3;
         num3 = (byte)(num1 + num2);
+        System.out.println(num3);
     }
 }
