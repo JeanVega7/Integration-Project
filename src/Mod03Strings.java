@@ -24,6 +24,7 @@ public class Mod03Strings {
                 + "The second animal is the " + secondCap + ".");
         
     }
+    
     public static void castingEx() {
         // casting changes data from one data type to another
         int num1 = 53;
