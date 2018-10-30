@@ -9,7 +9,7 @@ import java.util.Scanner;
  *
  */
 public class Mod01Hello {
-    public static void main(String[] args) {
+    public static void doMod1() {
             Scanner scan = new Scanner(System.in); 
             String usersName = scan.nextLine(); 
             scan.close(); 

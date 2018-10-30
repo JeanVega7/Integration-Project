@@ -14,6 +14,8 @@ class Main {
         System.out.println("4. Methods");
         System.out.println("5. Library Classes");
         System.out.println("6. Conditions");
+        System.out.println("7. Looping");
+        System.out.println("8. Classes");
     }
 
 }
