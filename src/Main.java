@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 // Jean Vega
 
 /* I want the program to be a quiz game
@@ -16,6 +18,16 @@ class Main {
         System.out.println("6. Conditions");
         System.out.println("7. Looping");
         System.out.println("8. Classes");
+    
+        Scanner scan = new Scanner(System.in);
+        CollegeClass cop2006201808 = new CollegeClass();
+        SLClass myClass = new SLClass();
+        myClass.printInfo();
+        scan.close();
+        
+        }
     }
+    
+    
 
 }
