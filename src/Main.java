@@ -18,6 +18,10 @@ class Main {
         System.out.println("6. Conditions");
         System.out.println("7. Looping");
         System.out.println("8. Classes");
+        System.out.println("9. Classes continued");
+        System.out.println("10. Arrays");
+        System.out.println("11. Exceptions");
+        
     
         Scanner scan = new Scanner(System.in);
         CollegeClass cop2006201808 = new CollegeClass();
