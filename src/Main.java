@@ -7,7 +7,7 @@ import java.util.Scanner;
  */
 
 class Main {
-  /*
+  /**
     * @param args 
     * Main is used as a menu
     * towards the rest of the modules
