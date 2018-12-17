@@ -17,10 +17,10 @@ public class Mod01Hello {
               
             // Greeting to User 
             System.out.println("Hello " + usersName);
-            Welcome();
+            textWelcome();
             
           }
-    public static void Welcome() {
+    public static void textWelcome() {
         System.out.println("Module 1");
         System.out.println("Hello, World.");
         System.out.println("Hello, Java."); 

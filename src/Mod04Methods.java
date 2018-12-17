@@ -28,13 +28,13 @@ public class Mod04Methods {
      */
     public static Double Square(double sq) {
         
-        Double SquareRoot = sq * sq;
-        return SquareRoot;
+        Double squareRoot = sq * sq;
+        return squareRoot;
     }
     public static Double Cube(double cu) {
         
-        Double CubeRoot = cu * cu * cu;
-        return CubeRoot;
+        Double cubeRoot = cu * cu * cu;
+        return cubeRoot;
     }
 
 }
