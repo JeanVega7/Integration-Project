@@ -7,9 +7,11 @@ import java.util.Scanner;
  */
 
 class Main {
-    /**
-     * @param args
-     */
+  /*
+    * @param args 
+    * Main is used as a menu
+    * towards the rest of the modules
+  */
   public static void main(String[] args) {
     System.out.println("Make a Number Selection from the Modules below");
     // Module list
