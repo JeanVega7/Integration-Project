@@ -1,7 +1,12 @@
 import java.util.Scanner;
 
+/**
+ * @author jeane
+ *
+ */
 public class Mod02Elements {
     public static void doMod2() {
+        System.out.println("Module 2" + "\n");
         
         System.out.println("Can You Guess My Favorite Number?");
         System.out.println("Enter a numerical value to find out determine your total money");

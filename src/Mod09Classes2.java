@@ -1,7 +1,13 @@
 
+/**
+ * @author jeane
+ *
+ */
 public class Mod09Classes2 {
     
     public static void superInherit() {
+        System.out.println("Module 9" + "\n");
+        
        abstract class Book {
         String title;
         String author;

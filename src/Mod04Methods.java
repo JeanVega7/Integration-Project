@@ -1,7 +1,12 @@
 import java.util.Scanner;
 
+/**
+ * @author jeane
+ *
+ */
 public class Mod04Methods {
     public static void doMod04() {
+        System.out.println("Module 4" + "\n");
         
         System.out.println("Provide a number to calculate the square and cube of it");
         

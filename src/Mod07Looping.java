@@ -1,6 +1,12 @@
 
+/**
+ * @author jeane
+ *
+ */
 public class Mod07Looping {
     public static void whileLoop() {
+        System.out.println("Module 7" + "\n");
+        
         int count = 1;
         while(count < 5) {
             System.out.println("Count is: " + count);

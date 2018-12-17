@@ -1,7 +1,13 @@
 import java.util.ArrayList;
 
+/**
+ * @author jeane
+ *
+ */
 public class Mod10Array {
     public static void oneArray() {
+        System.out.println("Module 10" + "\n");
+        
         System.out.println("One-Dimensional Array: {10, 1, 3, 6, 7}");
         int[] minSum = {10, 1, 3, 6, 7};
         

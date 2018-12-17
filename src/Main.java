@@ -7,7 +7,11 @@ import java.util.Scanner;
  */
 
 class Main {
+    /**
+     * @param args
+     */
     public static void main(String[] args) {
+        System.out.println("Make a Number Selection from the Modules below to try out some exercises");
      // Module list
         System.out.println("1. Hello World");
         System.out.println("2. Elements");
@@ -20,8 +24,8 @@ class Main {
         System.out.println("9. Classes continued");
         System.out.println("10. Arrays");
         System.out.println("11. Exceptions");
+        System.out.println("13. Quality");
         
-        System.out.println("Make a Selection from the Modules above to try out some exercises");
         int selection;
 
         // Create a scanner

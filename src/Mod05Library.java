@@ -1,8 +1,14 @@
 import java.util.Random;
 import java.util.Scanner;
 
+/**
+ * @author jeane
+ *
+ */
 public class Mod05Library {
     public static void randomGen() {
+        System.out.println("Module 5" + "\n");
+        
      //simulate lotto drawing of 6 random numbers
         System.out.println("LOTTO: 6 RANDOMLY GENERATED NUMBERS");
         Random r = new Random();

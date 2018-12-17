@@ -1,7 +1,12 @@
 import java.util.Scanner;
 
+/**
+ * @author jeane
+ *
+ */
 public class Mod03Strings {
     public static void stringsIntro() {
+        System.out.println("Module 3" + "\n");
         
         System.out.println("Enter the name of two animals in lower case");
         
