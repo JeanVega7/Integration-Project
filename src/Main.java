@@ -28,7 +28,7 @@ class Main {
         
     int selection;
 
-        // Create a scanner
+    // Create a scanner
     Scanner scan = new Scanner(System.in);
         
     selection = scan.nextInt();
@@ -68,7 +68,7 @@ class Main {
         Mod10Array.arrList();
         break;
       case 11:
-            // Exception Handling
+        // Exception Handling
         break;
       default:
         System.out.println("Invalid selection");
