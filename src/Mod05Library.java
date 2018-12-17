@@ -2,10 +2,15 @@ import java.util.Random;
 import java.util.Scanner;
 
 /**
+ * Use of Random and Math class.
  * @author jeane
  *
  */
 public class Mod05Library {
+    
+  /**
+   * Random generation of six numbers to simulate lottery. 
+   */
   public static void randomGen() {
     System.out.println("Module 5" + "\n");
         
@@ -20,7 +25,11 @@ public class Mod05Library {
     System.out.println(r.nextInt(53) + 1);
   }
     
-    public static void pizzaSlice() {
+  /**
+   * Calculates whether the integer is larger than the mathematical
+   * constant PI using the Math class.
+   */
+  public static void pizzaSlice() {
         
     Scanner scan = new Scanner(System.in);
         

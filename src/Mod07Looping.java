@@ -1,9 +1,14 @@
 
 /**
+ * Looping Pizza statements.
  * @author jeane
  *
  */
 public class Mod07Looping {
+  
+  /**
+   * Simple counting from 1 to 4.  
+   */
   public static void whileLoop() {
     System.out.println("Module 7" + "\n");
         
@@ -14,6 +19,10 @@ public class Mod07Looping {
     }  
   }
   
+  
+  /**
+   * Process of eating pizza and telling people about it.
+   */
   public static void forLoop() {
     for (int slicesPizza = 0; slicesPizza < 9; slicesPizza++) {
       if (slicesPizza == 6) {
@@ -27,7 +36,11 @@ public class Mod07Looping {
       System.out.println("I have eaten " + slicesPizza + " slices of pizza");
     }
   }
-    public static void doWhile() {
+  
+  /**
+   * Telling people how many slices of pizza are left.
+   */
+  public static void doWhile() {
     int pizzaSlices = 8;
     do {
       System.out.println("There are " + pizzaSlices + " slices of pizza left");

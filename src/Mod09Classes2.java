@@ -1,10 +1,15 @@
 
 /**
+ * Inheritance of Methods and Fields as well as Polymorphism.
  * @author jeane
  *
  */
 public class Mod09Classes2 {
-    
+  
+  /**
+   * myBook Inherited fields title and author from Book
+   * and the values as well from super. 
+   */
   public static void superInherit() {
     System.out.println("Module 9" + "\n");
         
@@ -42,7 +47,10 @@ public class Mod09Classes2 {
          */
   }
    
-   public static void polyClass() {
+  /**
+   * Polymorphism of cat and dog with animals and their sounds.
+   */
+  public static void polyClass() {
     Animal[] thelist = new Animal[2];
     Dog d = new Dog();
     Cat c = new Cat();

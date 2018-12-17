@@ -1,10 +1,17 @@
 import java.util.ArrayList;
 
 /**
+ * One-dimensional and two-dimensional arrays searched through loops
+ * and iteration.
  * @author jeane
  *
  */
 public class Mod10Array {
+    
+  /**
+   * Calculate minimum value and sum of the values
+   * in the array.
+   */
   public static void oneArray() {
     System.out.println("Module 10" + "\n");
         
@@ -34,6 +41,9 @@ public class Mod10Array {
         
   }
   
+  /**
+   * Two-dimensional Array used to find coordinates of its values.
+   */
   public static void twoArray() {
     System.out.println("Two-Dimensional Array:  {1,1,5},\r\n" 
             + " {9,3,5} ");
@@ -51,6 +61,10 @@ public class Mod10Array {
     }
   }
   
+  /**
+   * ArrayList of names being added and removed using the properties
+   * of the ArrayList.
+   */
   public static void arrList() {
     ArrayList<String> names;
     names = new ArrayList<String>();

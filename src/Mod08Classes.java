@@ -1,5 +1,7 @@
 
 /**
+ * The Character and CollegeClass classes were created in class
+ * towards overloading and overriding.
  * @author jeane
  *
  */

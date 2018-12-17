@@ -1,10 +1,16 @@
 import java.util.Scanner;
 
 /**
+ * Conditional statements and arguments.
  * @author jeane
  *
  */
 public class Mod06Conditions {
+  
+  /**
+   * Example from exercise to determine if a number is weird using
+   * if-else statements.
+   */
   public static void ifElse() {
     System.out.println("Module 6" + "\n");
         
@@ -25,7 +31,10 @@ public class Mod06Conditions {
       }
     }
   }
-    
+  
+  /**
+   * Simplied version of the if-else statement.
+   */
   public static void ternaryOp() {
     Scanner scan = new Scanner(System.in);
     int n = scan.nextInt();
@@ -34,7 +43,11 @@ public class Mod06Conditions {
         
     System.out.println(n % 2 == 1 || n > 5 && n <= 20 ? "Weird" : "Not Weird");
   }
-    
+  
+  /**
+   * switch statement finds the value in this case month number
+   * and prints out the month.
+   */
   public static void switchStatement() {
 
     int month = 8;
@@ -70,7 +83,12 @@ public class Mod06Conditions {
     System.out.println(monthString);
   } 
     
-    public static void incrementOp() {
+  /**
+   * Increase of money by 5, 
+   * increase of water by 1,
+   * decrease of pizza by 2 and then 1.
+   */
+  public static void incrementOp() {
     int pizza = 8;
     int money = 10;
     int water = 5;
@@ -83,7 +101,11 @@ public class Mod06Conditions {
     System.out.println(money);
   }
     
-    public static void compareStrings() {
+  /**
+   * Determines whether the contents of the Strings themselves are identical
+   * since other methods return location information.
+   */
+  public static void compareStrings() {
     String s1 = "Hello";
     String s2 = "World";
     String s3 = "Hello";
