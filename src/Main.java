@@ -9,10 +9,11 @@ import java.util.Scanner;
 
 class Main {
   /**
-    * @param args 
-    * Main is used as a menu
-    * towards the rest of the modules
-  */
+   *  Main is used as a menu
+   * towards the rest of the modules.
+   * @param args 
+   *
+   */
   public static void main(String[] args) {
     System.out.println("Make a Number Selection from the Modules below");
     // Module list
@@ -30,9 +31,9 @@ class Main {
     System.out.println("13. Quality");
         
     try {
-     int selection;
+      int selection;
 
-    // Create a scanner
+      // Create a scanner
       Scanner scan = new Scanner(System.in);
         
       selection = scan.nextInt();

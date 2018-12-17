@@ -1,10 +1,16 @@
 import java.util.Scanner;
 
 /**
+ * The program asks for two names, determines which comes first
+ * alphabetically, then capitalizes the first letter of both.
  * @author jeane
  *
  */
 public class Mod03Strings {
+    
+  /**
+   * Since the scanner asks for string the program technically still runs on numbers.
+   */
   public static void stringsIntro() {
     System.out.println("Module 3" + "\n");
         
@@ -41,7 +47,11 @@ public class Mod03Strings {
                 + "The second animal is the " + secondCap + ".");
         
   }
-    
+  
+  
+  /**
+   * small example of casting from int to byte.
+   */
   public static void castingEx() {
     // casting changes data from one data type to another
     int num1 = 53;

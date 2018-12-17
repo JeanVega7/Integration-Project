@@ -1,10 +1,15 @@
 import java.util.Scanner;
 
 /**
+ * Calculates the square and cube of a number.
  * @author jeane
  *
  */
 public class Mod04Methods {
+  
+  /**
+   * exception catches use of string inside the calculation.
+   */
   public static void doMod04() {
     System.out.println("Module 4" + "\n");
         
@@ -21,17 +26,27 @@ public class Mod04Methods {
     */
     System.out.println("Square: " + square(integer) + "\nCube: " + cube(integer));
   }
-    
-    /* In public static Double Square(double sq),
-     * public static Double Square() would be the header while
-     * double sq is the parameter
-     */
-    public static Double square(double sq) {
+
+  /* In Square(integer), Square() would be considered the method call
+  * while (integer) would be the argument
+  */
+  /**
+   * SquareRoot calculation.
+   * @param sq integer received would be multiplied by itself
+   * @return the squareRoot of the number
+   */
+  public static Double square(double sq) {
         
     Double squareRoot = sq * sq;
     return squareRoot;
   }
-    public static Double cube(double cu) {
+  
+  /**
+   * CubeRoot calculation.
+   * @param cu integer multiplied by itself two times
+   * @return the cubeRoot of the number
+   */
+  public static Double cube(double cu) {
         
     Double cubeRoot = cu * cu * cu;
     return cubeRoot;

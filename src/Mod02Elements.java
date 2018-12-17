@@ -2,10 +2,15 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 /**
+ * Prompt asks for two integers and a string.
  * @author jeane
- *
  */
 public class Mod02Elements {
+  
+  /**
+   * The first numerical value is assessed to be or not to be my favorite number.
+   * There is also a an exception catch to prevent string input for the integer
+   */
   public static void doMod2() {
     System.out.println("Module 2" + "\n");
         
