@@ -3,6 +3,8 @@ import java.util.Scanner;
 public class Mod04Methods {
     public static void doMod04() {
         
+        System.out.println("Provide a number to calculate the square and cube of it");
+        
         Scanner scan = new Scanner(System.in);
         System.out.print("Print integer: ");
         Double integer = scan.nextDouble();

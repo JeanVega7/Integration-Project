@@ -21,7 +21,7 @@ class Main {
         System.out.println("10. Arrays");
         System.out.println("11. Exceptions");
         
-        
+        System.out.println("Make a Selection from the Modules above to try out some exercises");
         int selection;
 
         // Create a scanner
@@ -48,10 +48,6 @@ class Main {
             break;
           case 6:
             Mod06Conditions.ifElse(); // Operators, Condition Statements and Branching
-            Mod06Conditions.compareStrings();
-            Mod06Conditions.incrementOp();
-            Mod06Conditions.switchStatement();
-            Mod06Conditions.ternaryOp();
             break;
           case 7:
             Mod07Looping.doWhile(); // Loops

@@ -3,7 +3,8 @@ import java.util.Scanner;
 
 public class Mod05Library {
     public static void randomGen() {
-     //simulate lotto drawing of 6 random numbers   
+     //simulate lotto drawing of 6 random numbers
+        System.out.println("LOTTO: 6 RANDOMLY GENERATED NUMBERS");
         Random r = new Random();
         System.out.println(r.nextInt(53)+1);
         System.out.println(r.nextInt(53)+1);

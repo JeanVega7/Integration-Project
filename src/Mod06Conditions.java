@@ -2,6 +2,7 @@ import java.util.*;
 
 public class Mod06Conditions {
     public static void ifElse() {
+        System.out.println("Enter a number to determine if it is weird or not");
         Scanner scan = new Scanner(System.in);
         int N = scan.nextInt();
 

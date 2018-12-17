@@ -10,6 +10,7 @@ import java.util.Scanner;
  */
 public class Mod01Hello {
     public static void doMod1() {
+        System.out.println("Enter your name");
             Scanner scan = new Scanner(System.in); 
             String usersName = scan.nextLine(); 
             scan.close(); 

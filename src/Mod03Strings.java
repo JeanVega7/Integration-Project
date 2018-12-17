@@ -3,6 +3,8 @@ import java.util.Scanner;
 public class Mod03Strings {
     public static void stringsIntro() {
         
+        System.out.println("Enter the name of two animals in lower case");
+        
         Scanner scan = new Scanner(System.in);
         String AnimalName = scan.next();
         String SecondAnimal = scan.next();
@@ -10,8 +12,10 @@ public class Mod03Strings {
         scan.close();
         
         //.length counts the number of characters in a string
-        System.out.println(AnimalName.length());
-        System.out.println(SecondAnimal.length());
+        System.out.println("The first animal's name is "+ AnimalName.length() + " letters long");
+        System.out.println("The second animal's name is "+ SecondAnimal.length() + " letters long");
+        
+        System.out.println("Does the name of the first animal appear before the second animal in alphabetical order?");
         
         //.compareTo compares strings to find alphabetical order
         int charNum = AnimalName.compareTo(SecondAnimal);
