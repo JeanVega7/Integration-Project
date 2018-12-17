@@ -9,21 +9,21 @@ import java.util.Scanner;
  *
  */
 public class Mod01Hello {
-    public static void doMod1() {
-        System.out.println("Enter your name");
-            Scanner scan = new Scanner(System.in); 
-            String usersName = scan.nextLine(); 
-            scan.close(); 
+  public static void doMod1() {
+    System.out.println("Enter your name");
+    Scanner scan = new Scanner(System.in); 
+    String usersName = scan.nextLine(); 
+    scan.close(); 
               
-            // Greeting to User 
-            System.out.println("Hello " + usersName);
-            textWelcome();
+    // Greeting to User 
+    System.out.println("Hello " + usersName);
+    textWelcome();
             
-          }
+  }
     public static void textWelcome() {
-        System.out.println("Module 1");
-        System.out.println("Hello, World.");
-        System.out.println("Hello, Java."); 
-    }    
+    System.out.println("Module 1");
+    System.out.println("Hello, World.");
+    System.out.println("Hello, Java."); 
+  }    
 }     
 
