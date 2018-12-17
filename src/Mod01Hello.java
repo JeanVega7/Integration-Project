@@ -1,10 +1,10 @@
 import java.util.Scanner;
 
 /**
-    *@author jcvega5237
-    *doMod01 will take the user input
-    *as the name to perform a greeting
-*/
+   *@author jcvega5237
+   *doMod01 will take the user input
+   *as the name to perform a greeting
+ */
 public class Mod01Hello {
   public static void doMod1() {
     System.out.println("Enter your name");
