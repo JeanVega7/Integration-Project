@@ -32,7 +32,7 @@ public class Mod09Classes2 {
         */
     }
    public static void polyClass() {
-        Animal[] thelist = new Animal[1];
+        Animal[] thelist = new Animal[2];
         Dog d = new Dog();
         Cat c = new Cat();
         

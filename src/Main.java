@@ -59,9 +59,9 @@ class Main {
             Mod09Classes2.polyClass();
             break;
           case 10:
-            Mod10Array.arrList(); // Arrays and ArrayLists
-            Mod10Array.oneArray();
+            Mod10Array.oneArray();  // Arrays and ArrayLists
             Mod10Array.twoArray();
+            Mod10Array.arrList();
             break;
           case 11:
  // Exception Handling

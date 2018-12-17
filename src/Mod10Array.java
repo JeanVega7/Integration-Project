@@ -2,6 +2,7 @@ import java.util.ArrayList;
 
 public class Mod10Array {
     public static void oneArray() {
+        System.out.println("One-Dimensional Array: {10, 1, 3, 6, 7}");
         int[] minSum = {10, 1, 3, 6, 7};
         
         //Find minimum value
@@ -10,8 +11,8 @@ public class Mod10Array {
          if(minSum[i] < Min) {
              Min = minSum[i];
          }
-         System.out.println("The minimum value in the array is: " + Min);
         }
+        System.out.println("The minimum value in the array is: " + Min);
         
         //Sum of values
         int Sum = 0;
@@ -27,6 +28,8 @@ public class Mod10Array {
         
     }
     public static void twoArray() {
+        System.out.println("Two-Dimensional Array:  {1,1,5},\r\n" + 
+                "                {9,3,5} ");
         int[][] twoDimensional = {
                 {1,1,5},
                 {9,3,5}
@@ -36,7 +39,7 @@ public class Mod10Array {
         for(int row = 0; row < twoDimensional.length; row++) {
             for(int col = 0; col < twoDimensional[row].length; col++) {
                 System.out.println("The value " + twoDimensional[row][col] 
-                        + "is in row " + row + "and column " + col);
+                        + " is in row " + row + " and column " + col);
             }
         }
     }
